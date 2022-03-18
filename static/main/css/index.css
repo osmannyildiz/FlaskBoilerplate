@@ -1,0 +1,11 @@
+:root {
+	--color-fg: white;
+	--color-bg: darkgreen;
+}
+
+body {
+	margin: 2rem 1rem;
+	color: var(--color-fg);
+	background-color: var(--color-bg);
+}
+

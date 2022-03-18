@@ -1,0 +1,18 @@
+{% extends "main/layouts/base.html" %}
+
+
+{% block title %}Flask Boilerplate{% endblock %}
+
+
+{% block css %}
+	<link rel="stylesheet" href="{{ url_for('static', filename='main/css/index.css') }}">
+{% endblock %}
+
+
+{% block body %}
+	<div class="container">
+		<h1>Flask Boilerplate</h1>
+		<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam laudantium animi quibusdam exercitationem mollitia atque harum maxime vel maiores, expedita officia temporibus, quod eligendi? Totam quod dolor animi harum obcaecati.</p>
+	</div>
+{% endblock %}
+
