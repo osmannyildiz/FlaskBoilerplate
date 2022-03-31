@@ -1,0 +1,13 @@
+.homepage-message {
+	max-width: 500px;
+	min-height: 3rem;
+	margin-top: 2rem;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 1rem;
+	color: black;
+	background-color: white;
+	border-radius: 8px;
+	text-align: center;
+}
+

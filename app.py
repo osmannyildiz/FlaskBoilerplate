@@ -9,5 +9,7 @@ def create_app():
 
     from flask_boilerplate.blueprints.main.views import bp_main
     app.register_blueprint(bp_main)
+    from flask_boilerplate.blueprints.api_main.views import bp_api_main
+    app.register_blueprint(bp_api_main, url_prefix="/api/main")
 
     return app
