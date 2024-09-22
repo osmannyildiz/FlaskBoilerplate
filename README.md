@@ -2,7 +2,6 @@
 
 This is a template for new Flask projects.
 
-
 ## Setup
 
 ```bash
@@ -13,10 +12,10 @@ git clone https://github.com/osmannyildiz/FlaskBoilerplate.git
 mv FlaskBoilerplate flask_boilerplate && cd flask_boilerplate
 
 # Create virtual environment and activate it
-python3 -m venv env && source env/bin/activate
+python -m venv env && source env/bin/activate
 
 # Install the requirements
-pip3 install -r requirements.txt
+pip install -r requirements.txt
 
 # Initialize your .env file with the example
 cp .env.example .env
@@ -26,4 +25,3 @@ flask run
 
 # Enjoy :)
 ```
-
